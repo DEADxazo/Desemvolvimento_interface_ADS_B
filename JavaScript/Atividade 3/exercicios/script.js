@@ -1,0 +1,12 @@
+// A — Par ou ímpar
+ document.getElementById("btnPar").addEventListener("click", () => { const t=document.getElementById("numero").value.trim(), r=document.getElementById("rPar"); if(t===""){r.textContent="Digite um número.";return;} const n=Number(t); if(!Number.isInteger(n)){r.textContent="Digite um número inteiro válido.";return;} r.textContent=n%2===0?"O número é par.":"O número é ímpar."; });
+// B — Desconto de 10% a partir de R$ 200
+ document.getElementById("btnDesconto").addEventListener("click",()=>{const t=document.getElementById("compra").value.trim(),r=document.getElementById("rDesconto");if(t===""){r.textContent="Informe o valor.";return;}const v=Number(t);if(!Number.isFinite(v)||v<0){r.textContent="Valor inválido.";return;}const d=v>=200?v*0.10:0;r.textContent=v>=200?`Desconto: R$ ${d.toFixed(2)}. Total: R$ ${(v-d).toFixed(2)}.`:`Sem desconto. Total: R$ ${v.toFixed(2)}.`;});
+// C — Controle de acesso: maior de idade e cadastro ativo
+ document.getElementById("btnAcesso").addEventListener("click",()=>{const t=document.getElementById("idadeC").value.trim(),ativo=document.getElementById("cadastro").checked,r=document.getElementById("rAcesso");if(t===""){r.textContent="Informe a idade.";return;}const idade=Number(t);if(!Number.isInteger(idade)||idade<0){r.textContent="Idade inválida.";return;}r.textContent=idade>=18&&ativo?"Acesso permitido.":"Acesso negado: é necessário ter 18 anos ou mais e cadastro ativo.";});
+// D — Saudação
+ document.getElementById("btnSaudar").addEventListener("click",()=>{const nome=document.getElementById("nome").value.trim();document.getElementById("rSaudar").textContent=nome?`Olá, ${nome}! Seja bem-vindo(a)!`:"Digite seu nome para receber a saudação.";});
+// E — Classificação de temperatura (faixas convencionais para o exercício)
+ document.getElementById("btnTemp").addEventListener("click",()=>{const t=document.getElementById("temperatura").value.trim(),r=document.getElementById("rTemp");if(t===""){r.textContent="Informe a temperatura.";return;}const n=Number(t);if(!Number.isFinite(n)){r.textContent="Temperatura inválida.";return;}r.textContent=n<15?"Frio":n<=25?"Temperatura amena":"Quente";});
+// F — Nota entre 0 e 10
+ document.getElementById("btnNota").addEventListener("click",()=>{const t=document.getElementById("nota").value.trim(),r=document.getElementById("rNota");if(t===""){r.textContent="Informe a nota.";return;}const n=Number(t);r.textContent=Number.isFinite(n)&&n>=0&&n<=10?`Nota válida: ${n}.`:"Nota inválida. Digite um valor entre 0 e 10.";});
