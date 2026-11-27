@@ -148,6 +148,34 @@ Este repositório é um registro contínuo de aprendizado. Novos exercícios, pr
 
 <sub>Repositório educacional • Desenvolvimento de Interfaces</sub>
 
+
+---
+
+## 📬 Contato & Links
+
+<div align="center">
+
+<a href="https://github.com/DEADxazo">
+  <img src="https://img.shields.io/badge/GitHub-DEADxazo-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+
+<a href="LINK_DO_SEU_LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="mailto:SEU_EMAIL">
+  <img src="https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+</div>
+
+<div align="center">
+
+💼 Aberto a aprendizado, projetos e oportunidades na área de tecnologia.
+
+</div>
+
+
 </div>
 
 
