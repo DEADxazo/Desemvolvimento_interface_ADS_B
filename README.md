@@ -27,6 +27,19 @@
 </p>
 
 </div>
+<div align="center">
+
+## 📊 Estatísticas do GitHub
+
+<a href="https://github.com/DEADxazo">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DEADxazo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&locale=pt-br" alt="Estatísticas GitHub de DEADxazo"/>
+</a>
+
+<a href="https://github.com/DEADxazo">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEADxazo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&locale=pt-br" alt="Linguagens mais utilizadas por DEADxazo"/>
+</a>
+
+</div>
 
 ---
 
