@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="banner_github_ads (1).png" width="100%" alt="Banner de Desenvolvimento de Interfaces ADS">
+</div>
+
+---
+
+<div align="center">
 
 # ⚡ Desenvolvimento de Interfaces — ADS
 
